@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Satyajit Samal </span>
             from <span className="purple"> Bhubaneswar, India.</span>
             <br />
-            I have Bachelor of Technology (B.Tech) in Computer Science at Biju Pattanaik University of Technology, Odisha.
+            I have completed Bachelor of Technology (B.Tech) in Computer Science at Biju Pattanaik University of Technology, Odisha.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
