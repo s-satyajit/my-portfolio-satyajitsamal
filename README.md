@@ -7,7 +7,7 @@
 <div align="center">
     <img src="./images/readme-img2.png"/>
 </div>
-
+<br>
 Welcome to my personal portfolio website repository! This project showcases my resume, projects, education, and professional details.
 
 ## Table of Contents
