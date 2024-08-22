@@ -1,0 +1,40 @@
+# My Portfolio - Satyajit Samal
+
+Welcome to my personal portfolio website repository! This project showcases my resume, projects, education, and professional details.
+
+## Table of Contents
+
+- About
+- Features
+- Technologies Used
+- Installation
+- Usage
+- Projects
+- Contact
+
+## About
+
+This portfolio website is designed to provide a comprehensive overview of my professional background, skills, and accomplishments. It includes sections for my resume, projects, education, and other relevant details.
+
+## Features
+
+- Responsive design
+- Interactive project showcase
+- Downloadable resume
+- Contact form
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+- ReactJS
+- Context API
+
+## Installation
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/satyajitsamal/my-portfolio-satyajitsamal.git
