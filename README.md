@@ -1,5 +1,13 @@
 # My Portfolio - Satyajit Samal
 
+<div align="center">
+    <img alt="Responsive-webapp" src="./images/readme-img1.png"/>
+</div>
+
+<div align="center">
+    <img src="./images/readme-img2.png"/>
+</div>
+
 Welcome to my personal portfolio website repository! This project showcases my resume, projects, education, and professional details.
 
 ## Table of Contents
