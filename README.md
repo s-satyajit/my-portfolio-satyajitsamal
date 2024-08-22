@@ -38,3 +38,22 @@ To run this project locally, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/satyajitsamal/my-portfolio-satyajitsamal.git
+   ```
+
+2. Navigate to the project directory:
+    ```bash
+    cd my-portfolio-satyajitsamal
+    ```
+
+3. Install the dependencies:
+    ```bash
+    npm install
+    ```
+
+4. Start the development server:
+    ```bash
+    npm start
+    ```
+
+## Usage
+Open your browser and navigate to ```https://localhost:3000``` to view the portfolio website.
