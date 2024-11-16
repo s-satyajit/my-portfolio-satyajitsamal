@@ -3,6 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import todoList from "../../Assets/Projects/todo-list.png";
+import todoList2 from "../../Assets/Projects/todo-list-2.png";
+import tictactoe from "../../Assets/Projects/tic-tac-toe.png";
+import inventoryDashboard from "../../Assets/Projects/inventory-dashboard.png"
 import geoLocation from "../../Assets/Projects/geo-location.png";
 import currencyConverter from "../../Assets/Projects/currency-converter.png";
 
@@ -18,6 +21,39 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={inventoryDashboard}
+              isBlog={false}
+              title="Inventory Dashboard"
+              description="This Inventory Management Dashboard is designed to analyze and report data from a single Excel sheet, providing clear insights through interactive charts and detailed tables."
+              ghLink="https://github.com/s-satyajit/inventory-dashboard"
+              demoLink="https://inventory-dashboard-bice.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={tictactoe}
+              isBlog={false}
+              title="Tic Tac Toe"
+              description="This Tic Tac Toe game is built with React and Tailwind CSS, offering reset, undo, and redo functionalities for an enhanced user experience."
+              ghLink="https://github.com/s-satyajit/TicTacToe-Reactjs"
+              demoLink="https://github.com/s-satyajit/TicTacToe-Reactjs"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={todoList2}
+              isBlog={false}
+              title="Todo List with Context API"
+              description="This Todo App is an interactive application leveraging React and Context API to manage the tasks with features like adding, editing, deleting and toggling todos, and local storage for persistence"
+              ghLink="https://github.com/s-satyajit/TodoApp-ContextLocalStorage"
+              demoLink="https://todo-context-local-pink.vercel.app/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={todoList}
