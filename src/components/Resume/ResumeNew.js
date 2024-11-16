@@ -20,7 +20,7 @@ function ResumeNew() {
   const getPageScale = () => {
     if (width > 1200) return 1.5;
     if (width > 786) return 1.0;
-    return 0.6;
+    return width / 500; // Adjust this divisor to fit the page on small screens
   };
 
   return (
@@ -39,10 +39,12 @@ function ResumeNew() {
           </Button>
         </Row>
 
-        <Row className="resume">
-          <Document file={pdf} className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={getPageScale()} />
-          </Document>
+        <Row className="resume flex justify-center items-center">
+          <div className="w-full max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl mx-auto">
+            <Document file={pdf} className="flex justify-center">
+              <Page pageNumber={1} scale={width < 786 ? 0.5 : getPageScale()} />
+            </Document>
+          </div>
         </Row>
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
