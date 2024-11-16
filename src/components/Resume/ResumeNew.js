@@ -20,7 +20,7 @@ function ResumeNew() {
   const getPageScale = () => {
     if (width > 1200) return 1.5;
     if (width > 786) return 1.0;
-    return width / 500; // Adjust this divisor to fit the page on small screens
+    return width / 500;
   };
 
   return (

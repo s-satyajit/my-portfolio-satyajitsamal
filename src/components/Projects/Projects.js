@@ -39,7 +39,7 @@ function Projects() {
               title="Tic Tac Toe"
               description="This Tic Tac Toe game is built with React and Tailwind CSS, offering reset, undo, and redo functionalities for an enhanced user experience."
               ghLink="https://github.com/s-satyajit/TicTacToe-Reactjs"
-              demoLink="https://github.com/s-satyajit/TicTacToe-Reactjs"
+              demoLink="https://tic-tac-toe-reactjs-gamma.vercel.app/"
             />
           </Col>
 
