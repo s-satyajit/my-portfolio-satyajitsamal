@@ -39,13 +39,14 @@ function ResumeNew() {
           </Button>
         </Row>
 
-        <Row className="resume flex justify-center items-center">
-          <div className="w-full max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl mx-auto">
-            <Document file={pdf} className="flex justify-center">
-              <Page pageNumber={1} scale={width < 786 ? 0.5 : getPageScale()} />
-            </Document>
-          </div>
-        </Row>
+        <Row className="resume" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+  <div className="w-full max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl" style={{ display: 'flex', justifyContent: 'center' }}>
+    <Document file={pdf}>
+      <Page pageNumber={1} scale={width < 786 ? 0.5 : getPageScale()} />
+    </Document>
+  </div>
+</Row>
+
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
