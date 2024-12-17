@@ -8,6 +8,11 @@ import tictactoe from "../../Assets/Projects/tic-tac-toe.png";
 import inventoryDashboard from "../../Assets/Projects/inventory-dashboard.png"
 import geoLocation from "../../Assets/Projects/geo-location.png";
 import currencyConverter from "../../Assets/Projects/currency-converter.png";
+import codeStudio from "../../Assets/Projects/CodeStudio.png";
+import ems from "../../Assets/Projects/ems.png";
+import hirrd from "../../Assets/Projects/hirrd.png";
+import chatApp from "../../Assets/Projects/chat-app.png";
+
 
 function Projects() {
   return (
@@ -21,6 +26,46 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatApp}
+              isBlog={false}
+              title="LiveTalk - Multi User Chat App"
+              description="A chat application that lets you chat with multiple people at the same time, designed to make communication easy and smooth."
+              ghLink="https://github.com/s-satyajit/multi-user-chatApp"
+              demoLink="https://multi-user-chat.vercel.app/"
+            />
+          </Col>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={hirrd}
+              isBlog={false}
+              title="Hirrd - Job Portal App"
+              description="A job portal project for connecting recruiters and job seekers with real-time job listings, secure authentication, and efficient job application processing."
+              ghLink="https://github.com/s-satyajit/hirrd-jobPortal"
+              demoLink="https://job-portal-eight-delta.vercel.app/"
+            />
+          </Col>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ems}
+              isBlog={false}
+              title="TeamZen - Employee Management System"
+              description="A React based Employee Management System offering efficient employee data management with a responsive interface."
+              ghLink="https://github.com/s-satyajit/employee-management-system"
+              demoLink="https://teamzen.vercel.app/"
+            />
+          </Col>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={codeStudio}
+              isBlog={false}
+              title="CodeStudio - Web Code Editor"
+              description="A web-based code editor for HTML, CSS, and JavaScript, offering live preview, and syntax highlighting. Perfect for seamless and intuitive web development!"
+              ghLink="https://github.com/s-satyajit/WebCodeEditor"
+              demoLink="https://web-code-editor-sigma.vercel.app/"
+            />
+          </Col>
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={inventoryDashboard}
